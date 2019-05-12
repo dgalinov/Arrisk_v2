@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Web.unity
+    guid: 3ad5496bdb28543b0a67d276475eae45
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/CreationMenu.unity
+    guid: 39cd54543cbfa4cc9916b21f337548f3
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/MainMenu.unity
+    guid: afda83f33d67b91b8aa9060320fab16d
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/DeepCave.unity
+    guid: fca115798faaf93e98ca6ec990cb2244
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/DeepCitySL.unity
+    guid: 550dc1e6702a64c5c9574026a8e15b15
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/DeepCaveHARD.unity
+    guid: 24dd16c32e0714840b8b18a9f2543426
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/DeepCityHSL.unity
+    guid: 7da390fecb6f3488d94407feeba710ef
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/MiddleCave.unity
+    guid: f579c18381c3140929ee7820d884a515
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/MiddleCitySL.unity
+    guid: c0b014e09dab049fd9c1c96a21545887
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/MiddleCaveHARD.unity
+    guid: 74d01135be3194d15bf2cb67760bffce
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/MiddleCityHSL.unity
+    guid: 26d89277149f6469fa9d1b6e9c0697b2
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/OutSide.unity
+    guid: 00804dd4e7f4245be9d3fd2b09238a77
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/OutSideSL.unity
+    guid: be863973d6b754bea911078b29191375
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Levels/OutSideHARD.unity
+    guid: a9ec5632899fe45ef82dd53afb3509c3
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/SceenLoaders/OutSideHSL.unity
+    guid: eefefc6a9bedf43b7bd1771fdab37f69
+  m_configObjects: {}
