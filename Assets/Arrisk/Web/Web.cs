@@ -66,7 +66,7 @@ public class Web : MonoBehaviour
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/ArriskDB/login.php", form))
         {
             yield return www.SendWebRequest();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
             if (www.isNetworkError || www.isHttpError)
             {
                 funca = false;
@@ -91,7 +91,7 @@ public class Web : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 12);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             if (www.isNetworkError || www.isHttpError)
             {

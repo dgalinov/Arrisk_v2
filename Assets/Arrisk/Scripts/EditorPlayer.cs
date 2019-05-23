@@ -21,6 +21,6 @@ public class EditorPlayer : MonoBehaviour
 
     void CreateCharacter()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 14);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

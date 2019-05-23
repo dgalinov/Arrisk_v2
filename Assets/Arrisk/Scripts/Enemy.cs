@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        if (collision.name == "Player")
+        if (collision.tag == "Player")
         {
             player.health -= 1;
         }

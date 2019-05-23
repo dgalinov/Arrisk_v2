@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Arrisk/Scenes/SceenLoaders/OutSideHSL.unity
     guid: eefefc6a9bedf43b7bd1771fdab37f69
+  - enabled: 1
+    path: Assets/Arrisk/Scenes/Fin.unity
+    guid: d486d2d7882e0401b893ed63a3ce5d63
   m_configObjects: {}

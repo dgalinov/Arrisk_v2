@@ -38,17 +38,17 @@ public class ShopNPC : MonoBehaviour
     }
     void MoreLife()
     {
-        if (CoinsController.coinsAmount >= 300 || player.health < 5)
+        if (CoinsController.coinsAmount >= 400 || player.health < 5)
         {
-            CoinsController.coinsAmount -= 300;
+            CoinsController.coinsAmount -= 400;
             player.health += 1;
         }
     }
     void MoreDamage()
     {
-        if (CoinsController.coinsAmount >= 1000)
+        if (CoinsController.coinsAmount >= 750)
         {
-            CoinsController.coinsAmount -= 1000;
+            CoinsController.coinsAmount -= 750;
             Enemy.damage += 1f;
         }
     }
