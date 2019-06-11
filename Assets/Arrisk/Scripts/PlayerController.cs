@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
 	Rigidbody2D rb;
 	float dirX;
 
+    GameController player;
+
     Animator animator;
 
 	[SerializeField]

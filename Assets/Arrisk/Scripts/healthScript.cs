@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class healthScript : MonoBehaviour
 {
-    Player player;
+    GameController player;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         player.health += 1;

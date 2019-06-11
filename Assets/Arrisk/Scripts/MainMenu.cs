@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        LoadPlayer();
+
     }
 
     public void Hard()
@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Continue()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        LoadPlayer();
     }
     public void QuitGame() {
 	Debug.Log("QUIT!");

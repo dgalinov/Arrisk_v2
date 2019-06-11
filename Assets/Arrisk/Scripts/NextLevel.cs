@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
     public int level;
-    Player player;
+    GameController player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -7,7 +7,7 @@ public class ShopNPC : MonoBehaviour
 {
     public GameObject canvasControllers, canvasShop;
     public Button exit, addLife, addDamage;
-    Player player;
+    GameController player;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +49,7 @@ public class ShopNPC : MonoBehaviour
         if (CoinsController.coinsAmount >= 750)
         {
             CoinsController.coinsAmount -= 750;
-            Enemy.damage += 1f;
+            Enemy.damage += 1;
         }
     }
 }

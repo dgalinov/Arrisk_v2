@@ -8,10 +8,10 @@ public class PlayerData
 {
     public int health;
     public int coins;
-    public float damage;
+    public int damage;
     public int scene;
 
-    public PlayerData (Player player)
+    public PlayerData (GameController player)
     {
         health = player.health;
         coins = player.coins;

@@ -62,6 +62,6 @@ public class NPCSurvivor : MonoBehaviour
         Time.timeScale = 1;
         canvasStory5.SetActive(false);
         canvasControllers.SetActive(true);
-        CoinsController.coinsAmount += 400;
+        //CoinsController.coinsAmount += 400;
     }
 }

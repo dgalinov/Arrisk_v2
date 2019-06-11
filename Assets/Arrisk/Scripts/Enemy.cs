@@ -5,28 +5,24 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float health = 3f;
-    public static float damage = 1f;
+    public float health2 = 3f;
+    public static int damage = 1;
     public GameObject enemy;
-    Player player;
+    public GameObject jugador;
+    GameController player;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "shot")
         {
-            if (health > 0f)
+            if (health2 > 0f)
             {
-                health -= damage;
+                health2 -= damage;
             }
             else
             {
                 enemy.gameObject.SetActive(false);
                 CoinsController.coinsAmount += 100;
             }
-        }
-
-        if (collision.tag == "Player")
-        {
-            player.health -= 1;
         }
     }
 }

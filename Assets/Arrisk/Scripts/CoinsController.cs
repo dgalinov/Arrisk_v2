@@ -7,7 +7,7 @@ public class CoinsController : MonoBehaviour
 {
     public static int coinsAmount;
     private Text coinsCounter;
-    Player player;
+    GameController player;
 
     // Start is called before the first frame update
     void Start()
