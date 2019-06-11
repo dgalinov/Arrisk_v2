@@ -13,7 +13,7 @@ public class PlayerData
 
     public PlayerData (GameController player)
     {
-        health = player.health;
+        health = GameController.health;
         coins = player.coins;
         damage = player.damage;
         scene = SceneManager.GetActiveScene().buildIndex;

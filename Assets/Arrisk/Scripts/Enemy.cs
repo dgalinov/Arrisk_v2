@@ -24,5 +24,9 @@ public class Enemy : MonoBehaviour
                 CoinsController.coinsAmount += 100;
             }
         }
+        if (collision.tag == "Player")
+        {
+            GameController.health -= 1;
+        }
     }
 }

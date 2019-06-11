@@ -20,7 +20,7 @@ public class GameOverScreen : MonoBehaviour
 
     public void MainOnClick()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - level);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
     }
 
     public void QuitOnClick()

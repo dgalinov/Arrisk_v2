@@ -20215,7 +20215,6 @@ MonoBehaviour:
   bs: {fileID: 188156626}
   textC: {fileID: 1177412686}
   canvasGameOver: {fileID: 1849022534}
-  health: 5
   damage: 1
   coins: 0
 --- !u!1 &1849022531
